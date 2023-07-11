@@ -84,9 +84,9 @@ function displayTasks(index) {
         <p class="description text-capitalize">${tasks[index]?.description}</p>
         <h4 class="category ${tasks[index]?.category} text-capitalize">${tasks[index]?.category}</h4>
         <ul class="task-options list-unstyled d-flex gap-3 fs-5 m-0">
-          <li><i class="bi bi-pencil-square" onclick="getTaskInfo(${index})"></i></li>
-          <li><i class="bi bi-trash-fill" onclick="deleteTask(${index})"></i></li>
-          <li><i class="bi bi-palette-fill" onclick="changeColor(event)"></i></li>
+          <li><i class="fa-regular fa-pen-to-square" onclick="getTaskInfo(${index})"></i></li>
+          <li><i class="fa-solid fa-trash-can" onclick="deleteTask(${index})"></i></li>
+          <li><i class="fa-solid fa-palette" onclick="changeColor(event)"></i></li>
         </ul>
     </div>
     `;

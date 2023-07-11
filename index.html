@@ -11,25 +11,24 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+Syloti+Nagri&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
         rel="stylesheet" />
-
     <link rel="stylesheet" href="./css/all.min.css" />
-    <!-- ? ======> Bootstrap  Icons  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
     <!-- ? ======> Bootstrap Library  -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <!-- ? ======> Main Stylesheet  -->
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/23190414a9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="shadow-lg fixed-top">
         <div class="container d-flex align-items-center gap-3 p-3">
             <h1 class="h2 m-0 text-capitalize fw-bold">
-                <a href="index.html" class="text-decoration-none logo">Organized</a>
+                <a href="index.html" class="text-decoration-none logo">
+                    <i class="fa-regular fa-circle-check"></i>
+                    Organized</a>
             </h1>
             <div class="input-group flex-nowrap mx-auto">
-                <label class="input-group-text" id="addon-wrapping" for="searchInput"><i
-                        class="bi bi-search-heart"></i></label>
+                <label class="input-group-text" id="addon-wrapping" for="searchInput"><i class="fa-brands fa-searchengin"></i></label>
                 <input type="text" class="form-control" placeholder="Seacrh...." aria-label="search"
                     aria-describedby="addon-wrapping" id="searchInput" list="categories" />
                 <datalist id="categories">
@@ -46,23 +45,21 @@
         <nav class="my-5">
             <div class="container d-flex justify-content-between align-items-center">
                 <h2 class="h5 m-0 fw-bold">
-                    <i class="bi bi-stars"></i> All
+                    <i class="fa-solid fa-list-check"></i> All
                 </h2>
                 <ul class="list-unstyled d-flex gap-3 m-0">
                     <ul class="layout rounded-2 d-flex list-unstyled">
                         <li class="rounded-3">
-                            <i class="bi bi-grid-1x2 active" id="gridBtn"></i>
+                            <i class="fa-solid fa-grip active" id="gridBtn"></i>
                         </li>
-                        <li class="rounded-3"><i class="bi bi-list" id="barsBtn"></i></li>
+                        <li class="rounded-3"><i class="fa-solid fa-bars" id="barsBtn"></i></li>
                     </ul>
                     <li class="rounded-3">
-                        <i class="bi bi-gear-fill"></i>
+                        <i class="fa-solid fa-gear"></i>
                     </li>
                 </ul>
             </div>
         </nav>
-
-       
 
         <div class="container columns pb-5 back">
             <div class="row g-3 align-items-start">
